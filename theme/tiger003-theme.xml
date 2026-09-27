@@ -316,9 +316,9 @@ button,input,textarea{font-family:inherit}
       <ul>
         <li><a expr:href='data:blog.homepageUrl'>الرئيسية</a></li>
         <li><a href='/search/label/مقالات'>المقالات</a></li>
-        <li><a href='/p/about.html'>من نحن</a></li>
-        <li><a href='/p/contact.html'>تواصل معنا</a></li>
-        <li><a href='/p/privacy-policy.html'>سياسة الخصوصية</a></li>
+        <li><a href='/p/blog-page_91.html'>من نحن</a></li>
+        <li><a href='/p/blog-page_64.html'>تواصل معنا</a></li>
+        <li><a href='/p/blog-page_27.html'>سياسة الخصوصية</a></li>
       </ul>
     </nav>
 
@@ -439,15 +439,16 @@ button,input,textarea{font-family:inherit}
       <div>
         <h4>الشركة</h4>
         <ul>
-          <li><a href='/p/about.html'>من نحن</a></li>
-          <li><a href='/p/contact.html'>تواصل معنا</a></li>
+          <li><a href='/p/blog-page_91.html'>من نحن</a></li>
+          <li><a href='/p/blog-page_64.html'>تواصل معنا</a></li>
         </ul>
       </div>
       <div>
         <h4>قانوني</h4>
         <ul>
-          <li><a href='/p/privacy-policy.html'>سياسة الخصوصية</a></li>
-          <li><a href='/p/disclaimer.html'>إخلاء المسؤولية</a></li>
+          <li><a href='/p/blog-page_27.html'>سياسة الخصوصية</a></li>
+          <li><a href='/p/blog-page_33.html'>إخلاء المسؤولية</a></li>
+          <li><a href='/p/blog-page_11.html'>شروط الاستخدام</a></li>
         </ul>
       </div>
     </div>
