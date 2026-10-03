@@ -303,7 +303,11 @@ button,input,textarea{font-family:inherit}
 <div class='header'>
   <div class='container header-inner'>
     <div class='site-branding'>
-      <p class='site-title'><a expr:href='data:blog.homepageUrl'><data:title/></a></p>
+      <b:if cond='data:blog.url == data:blog.homepageUrl'>
+        <h1 class='site-title'><a expr:href='data:blog.homepageUrl'><data:title/></a></h1>
+      <b:else/>
+        <p class='site-title'><a expr:href='data:blog.homepageUrl'><data:title/></a></p>
+      </b:if>
       <b:if cond='data:description'>
         <p class='site-description'><data:description/></p>
       </b:if>
@@ -347,7 +351,7 @@ button,input,textarea{font-family:inherit}
   </div>
 </div>
 
-<div class='page-body container'>
+<main class='page-body container'>
   <div class='layout-grid'>
 
     <b:section class='main' id='main' showaddelement='no'>
@@ -409,7 +413,7 @@ button,input,textarea{font-family:inherit}
     </b:section>
 
   </div>
-</div>
+</main>
 
 <b:section class='footer' id='footer' maxwidgets='1' showaddelement='no'>
 <b:widget id='HTML5' locked='false' title='الفوتر' type='HTML' version='2'>
